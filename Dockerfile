@@ -15,4 +15,5 @@ RUN curl -L  $(curl -s  https://api.github.com/repos/TestOnlineNTN/OnlineJudgeFE
     unzip dist.zip && \
     rm dist.zip
 
+
 ENTRYPOINT /app/deploy/entrypoint.sh
